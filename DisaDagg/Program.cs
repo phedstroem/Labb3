@@ -23,9 +23,20 @@ class Program
             mayTemps[i] = new CalcTemp(i + 1, temperatur);
         }
 
+        // Metod för att skriva ut alla dagar och temperaturer
+        CalcTemp.Print(mayTemps);
+
+        // Skriv ut Medeltemåeratur med metoden averageTemp // Lägg i meny 2
+        Console.WriteLine("\nHär kommer medeltemperaturen:");
+        int averageTemp = CalcTemp.AverageTemp(mayTemps);
+        Console.WriteLine(averageTemp + " °C");
+
         // Test för att skriva ut specifik dag
+<<<<<<< HEAD
         
         
+=======
+>>>>>>> parent of 06f1cc5 (.)
         Console.WriteLine($"Temp: {mayTemps[7].Temp} Dag: {mayTemps[7].Day}");
 
 
@@ -51,18 +62,12 @@ class Program
             {
                 case "1":
                     Console.Clear();
-                    // Metod för att skriva ut alla dagar och temperaturer
-                    CalcTemp.Print(mayTemps);
                     Console.Write("\nTryck för att fortsätta...");
                     Console.ReadKey();
                     Console.Clear();
                     break;
                 case "2":
                     Console.Clear();
-                    // Skriv ut Medeltemåeratur med metoden averageTemp // Lägg i meny 2
-                    Console.WriteLine("\nMedeltemperaturen:");
-                    int averageTemp = CalcTemp.AverageTemp(mayTemps);
-                    Console.WriteLine(averageTemp + " °C");
                     Console.Write("\nTryck för att fortsätta...");
                     Console.ReadKey();
                     Console.Clear();

@@ -23,13 +23,8 @@ class Program
             mayTemps[i] = new CalcTemp(i + 1, temperatur);
         }
 
-
-        // Skriver ut allt. Lägg allt i meny 1, detta kan vi lägga i en klass, en metod "Print" kanske?
-        foreach (CalcTemp element in mayTemps)
-        {
-            Console.WriteLine(element.Day + " Maj: " + element.Temp + " °C");
-        }
-
+        // Metod för att skriva ut alla dagar och temperaturer
+        CalcTemp.Print(mayTemps);
 
         // Skriv ut Medeltemåeratur med metoden averageTemp // Lägg i meny 2
         Console.WriteLine("\nHär kommer medeltemperaturen:");

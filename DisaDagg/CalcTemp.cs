@@ -26,5 +26,11 @@ public class CalcTemp
     }
     // Vi ska göra en print metod här
     public static void Print(CalcTemp[] array) 
-    { }
+    {        
+        // Skriver ut allt. Lägg allt i meny 1, detta kan vi lägga i en klass, en metod "Print" kanske?
+        foreach (CalcTemp element in array)
+        {
+            Console.WriteLine(element.Day + " Maj: " + element.Temp + " °C");
+        } 
+    }
 }

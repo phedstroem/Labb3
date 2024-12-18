@@ -43,6 +43,7 @@ public class CalcTemp
             if (element.Temp > maxTemp)
                 maxTemp = element.Temp;
         }
-        Console.WriteLine("Maxtemperaturen var: "+ maxTemp);
+        int index = Array.IndexOf(array, maxTemp);
+        Console.WriteLine("Maxtemperaturen var "+ maxTemp + " °C den " + CalcTemp[index -1].day);
     }
 }

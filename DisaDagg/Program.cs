@@ -24,10 +24,9 @@ class Program
         }
 
         // Test för att skriva ut specifik dag
-        string userchoice = Console.ReadLine();
+        
         
         Console.WriteLine($"Temp: {mayTemps[7].Temp} Dag: {mayTemps[7].Day}");
-
 
 
         bool isRunning = true;
@@ -70,6 +69,7 @@ class Program
                     break;
                 case "3":
                     Console.Clear();
+                    CalcTemp.MaxTemp(mayTemps);
                     Console.Write("\nTryck för att fortsätta...");
                     Console.ReadKey();
                     Console.Clear();

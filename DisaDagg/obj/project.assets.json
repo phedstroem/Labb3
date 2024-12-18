@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/DisaDagg.csproj",
+      "projectUniqueName": "/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Namnlös/DisaDagg/DisaDagg.csproj",
       "projectName": "DisaDagg",
-      "projectPath": "/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/DisaDagg.csproj",
+      "projectPath": "/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Namnlös/DisaDagg/DisaDagg.csproj",
       "packagesPath": "/Users/fredrikdomerteriksson/.nuget/packages/",
-      "outputPath": "/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/obj/",
+      "outputPath": "/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Namnlös/DisaDagg/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/fredrikdomerteriksson/.nuget/NuGet/NuGet.Config"

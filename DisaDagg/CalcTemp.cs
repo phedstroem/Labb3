@@ -34,16 +34,6 @@ public class CalcTemp
         } 
     }
 
-    // En metod för att leta reda på maxTemperaturen
-    public static void MaxTemp(CalcTemp[] array)
-    {
-        int maxTemp = 0;
-        foreach (CalcTemp element in array)
-        {
-            if (element.Temp > maxTemp)
-                maxTemp = element.Temp;
-        }
-        int index = Array.IndexOf(array, maxTemp);
-        Console.WriteLine("Maxtemperaturen var "+ maxTemp + " °C den " + CalcTemp[index -1].day);
-    }
+
+    
 }

@@ -1,0 +1,15 @@
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/bin/Debug/net8.0/DisaDagg
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/bin/Debug/net8.0/DisaDagg.deps.json
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/bin/Debug/net8.0/DisaDagg.runtimeconfig.json
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/bin/Debug/net8.0/DisaDagg.dll
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/bin/Debug/net8.0/DisaDagg.pdb
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.AssemblyInfoInputs.cache
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.AssemblyInfo.cs
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.csproj.CoreCompileInputs.cache
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.sourcelink.json
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.dll
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/obj/Debug/net8.0/refint/DisaDagg.dll
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.pdb
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.genruntimeconfig.cache
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/obj/Debug/net8.0/ref/DisaDagg.dll

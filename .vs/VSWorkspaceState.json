@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.idea"
+    "\\.idea",
+    "\\DisaDagg"
   ],
+  "SelectedNode": "\\DisaDagg\\CalcTemp.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -34,7 +34,7 @@ public class CalcTemp
         } 
     }
     
-    public static void MaxTemp(CalcTemp[] array)
+    /*public static void MaxTemp(CalcTemp[] array)
     {
         int maxTemp = 0;
 
@@ -46,7 +46,7 @@ public class CalcTemp
         }
         int index = Array.IndexOf(array, maxTemp);
         Console.WriteLine("Maxtemperaturen var "+ maxTemp + " °C den " + CalcTemp[index -1].Day);
-    }
+    }*/
 
 
 

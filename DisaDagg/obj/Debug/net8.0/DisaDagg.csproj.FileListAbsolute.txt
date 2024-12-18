@@ -1,15 +1,30 @@
-C:\Users\pheds\OneDrive\Desktop\Studier\Objektorienterad programmering GIK299\Labb 3\Labb3\DisaDagg\bin\Debug\net8.0\DisaDagg.exe
-C:\Users\pheds\OneDrive\Desktop\Studier\Objektorienterad programmering GIK299\Labb 3\Labb3\DisaDagg\bin\Debug\net8.0\DisaDagg.deps.json
-C:\Users\pheds\OneDrive\Desktop\Studier\Objektorienterad programmering GIK299\Labb 3\Labb3\DisaDagg\bin\Debug\net8.0\DisaDagg.runtimeconfig.json
-C:\Users\pheds\OneDrive\Desktop\Studier\Objektorienterad programmering GIK299\Labb 3\Labb3\DisaDagg\bin\Debug\net8.0\DisaDagg.dll
-C:\Users\pheds\OneDrive\Desktop\Studier\Objektorienterad programmering GIK299\Labb 3\Labb3\DisaDagg\bin\Debug\net8.0\DisaDagg.pdb
-C:\Users\pheds\OneDrive\Desktop\Studier\Objektorienterad programmering GIK299\Labb 3\Labb3\DisaDagg\obj\Debug\net8.0\DisaDagg.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\pheds\OneDrive\Desktop\Studier\Objektorienterad programmering GIK299\Labb 3\Labb3\DisaDagg\obj\Debug\net8.0\DisaDagg.AssemblyInfoInputs.cache
-C:\Users\pheds\OneDrive\Desktop\Studier\Objektorienterad programmering GIK299\Labb 3\Labb3\DisaDagg\obj\Debug\net8.0\DisaDagg.AssemblyInfo.cs
-C:\Users\pheds\OneDrive\Desktop\Studier\Objektorienterad programmering GIK299\Labb 3\Labb3\DisaDagg\obj\Debug\net8.0\DisaDagg.csproj.CoreCompileInputs.cache
-C:\Users\pheds\OneDrive\Desktop\Studier\Objektorienterad programmering GIK299\Labb 3\Labb3\DisaDagg\obj\Debug\net8.0\DisaDagg.sourcelink.json
-C:\Users\pheds\OneDrive\Desktop\Studier\Objektorienterad programmering GIK299\Labb 3\Labb3\DisaDagg\obj\Debug\net8.0\DisaDagg.dll
-C:\Users\pheds\OneDrive\Desktop\Studier\Objektorienterad programmering GIK299\Labb 3\Labb3\DisaDagg\obj\Debug\net8.0\refint\DisaDagg.dll
-C:\Users\pheds\OneDrive\Desktop\Studier\Objektorienterad programmering GIK299\Labb 3\Labb3\DisaDagg\obj\Debug\net8.0\DisaDagg.pdb
-C:\Users\pheds\OneDrive\Desktop\Studier\Objektorienterad programmering GIK299\Labb 3\Labb3\DisaDagg\obj\Debug\net8.0\DisaDagg.genruntimeconfig.cache
-C:\Users\pheds\OneDrive\Desktop\Studier\Objektorienterad programmering GIK299\Labb 3\Labb3\DisaDagg\obj\Debug\net8.0\ref\DisaDagg.dll
+C:/Users/pheds/OneDrive/Desktop/Studier/Objektorienterad programmering GIK299/Labb 3/Labb3/DisaDagg/bin/Debug/net8.0/DisaDagg.exe
+C:/Users/pheds/OneDrive/Desktop/Studier/Objektorienterad programmering GIK299/Labb 3/Labb3/DisaDagg/bin/Debug/net8.0/DisaDagg.deps.json
+C:/Users/pheds/OneDrive/Desktop/Studier/Objektorienterad programmering GIK299/Labb 3/Labb3/DisaDagg/bin/Debug/net8.0/DisaDagg.runtimeconfig.json
+C:/Users/pheds/OneDrive/Desktop/Studier/Objektorienterad programmering GIK299/Labb 3/Labb3/DisaDagg/bin/Debug/net8.0/DisaDagg.dll
+C:/Users/pheds/OneDrive/Desktop/Studier/Objektorienterad programmering GIK299/Labb 3/Labb3/DisaDagg/bin/Debug/net8.0/DisaDagg.pdb
+C:/Users/pheds/OneDrive/Desktop/Studier/Objektorienterad programmering GIK299/Labb 3/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/pheds/OneDrive/Desktop/Studier/Objektorienterad programmering GIK299/Labb 3/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.AssemblyInfoInputs.cache
+C:/Users/pheds/OneDrive/Desktop/Studier/Objektorienterad programmering GIK299/Labb 3/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.AssemblyInfo.cs
+C:/Users/pheds/OneDrive/Desktop/Studier/Objektorienterad programmering GIK299/Labb 3/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.csproj.CoreCompileInputs.cache
+C:/Users/pheds/OneDrive/Desktop/Studier/Objektorienterad programmering GIK299/Labb 3/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.sourcelink.json
+C:/Users/pheds/OneDrive/Desktop/Studier/Objektorienterad programmering GIK299/Labb 3/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.dll
+C:/Users/pheds/OneDrive/Desktop/Studier/Objektorienterad programmering GIK299/Labb 3/Labb3/DisaDagg/obj/Debug/net8.0/refint/DisaDagg.dll
+C:/Users/pheds/OneDrive/Desktop/Studier/Objektorienterad programmering GIK299/Labb 3/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.pdb
+C:/Users/pheds/OneDrive/Desktop/Studier/Objektorienterad programmering GIK299/Labb 3/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.genruntimeconfig.cache
+C:/Users/pheds/OneDrive/Desktop/Studier/Objektorienterad programmering GIK299/Labb 3/Labb3/DisaDagg/obj/Debug/net8.0/ref/DisaDagg.dll
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/bin/Debug/net8.0/DisaDagg
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/bin/Debug/net8.0/DisaDagg.deps.json
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/bin/Debug/net8.0/DisaDagg.runtimeconfig.json
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/bin/Debug/net8.0/DisaDagg.dll
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/bin/Debug/net8.0/DisaDagg.pdb
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.AssemblyInfoInputs.cache
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.AssemblyInfo.cs
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.csproj.CoreCompileInputs.cache
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.sourcelink.json
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.dll
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/obj/Debug/net8.0/refint/DisaDagg.dll
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.pdb
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/obj/Debug/net8.0/DisaDagg.genruntimeconfig.cache
+/Users/fredrikdomerteriksson/Documents/GitHub/Gik299_Lab1_Grupp_75/Namnlös/Labb3/DisaDagg/obj/Debug/net8.0/ref/DisaDagg.dll

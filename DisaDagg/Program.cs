@@ -24,7 +24,7 @@ class Program
             mayTemps[i] = new CalcTemp(i + 1, temperatur);
         }
 
-        // Skapar en koia på "mayTemps" som vi sorterar
+        // Skapar en kopia på "mayTemps" som vi sorterar
         // https://learn.microsoft.com/en-us/dotnet/api/system.array.copy?view=net-9.0
         CalcTemp[] mayTempsCopy = new CalcTemp[mayTemps.Length];
         Array.Copy(mayTemps, mayTempsCopy, mayTemps.Length);
@@ -85,6 +85,14 @@ class Program
                     Console.Clear();
                     break;
                 case "5":
+                    Console.Clear();
+                    // Använder den sorterade listan 
+                    sortedTemps = CalcTemp.SortArray(mayTempsCopy);
+                    // Skriver ut medianen
+                    CalcTemp.PrintSortMedian(sortedTemps);
+                    Console.Write("\nTryck för att fortsätta...");
+                    Console.ReadKey();
+                    Console.Clear();
                     break;
                 case "6":
                     Console.Clear();

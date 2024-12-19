@@ -45,6 +45,22 @@ public class CalcTemp
             Console.WriteLine(element.Temp + " °C  - " + element.Day + " Maj");
         }
     }
+    
+    
+    // En print metod för att skriva ut medianen i den sorterade listan. 
+    public static void PrintSortMedian(CalcTemp[] array)
+    {
+        int median = 16;
+        for (int i = 0; i < array.Length; i++)
+        {
+            if (i == median)
+            {
+                Console.WriteLine("Medianen: " + array[i].Temp);
+            }
+        }
+    }
+
+
 
     // En metod för att leta reda på maxTemperaturen
     public static void MaxTemp(CalcTemp[] array)

@@ -89,7 +89,7 @@ class Program
                     // Använder den sorterade listan 
                     sortedTemps = CalcTemp.SortArray(mayTempsCopy);
                     // Skriver ut medianen
-                    CalcTemp.PrintSortMedian(sortedTemps);
+                    CalcTemp.PrintMedian(sortedTemps);
                     Console.Write("\nTryck för att fortsätta...");
                     Console.ReadKey();
                     Console.Clear();

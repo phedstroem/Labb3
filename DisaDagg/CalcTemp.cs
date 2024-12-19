@@ -48,7 +48,7 @@ public class CalcTemp
     
     
     // En print metod för att skriva ut medianen i den sorterade listan. 
-    public static void PrintSortMedian(CalcTemp[] array)
+    public static void PrintMedian(CalcTemp[] array)
     {
         int median = 16;
         for (int i = 0; i < array.Length; i++)

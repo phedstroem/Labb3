@@ -10,7 +10,8 @@ class Program
 
         // Skapar en array av CalcTemp klassen med 31 indexplatser
         CalcTemp[] mayTemps = new CalcTemp[31];
-
+        // Skapar en till array som spar alla värden sorterade
+        CalcTemp[] sortedTemps = new CalcTemp[31];
 
         // Lägger in 31 "CalcTemp"object i arrayen med slumpade temperaturer // VI KAN NOG LÄGGA DEN I KLASSEN...
         // Datumen kommer bli "index +1"
@@ -22,7 +23,12 @@ class Program
             // Lägger in värden för varje objekt. 
             mayTemps[i] = new CalcTemp(i + 1, temperatur);
         }
-        
+
+        // Skapar en koia på "mayTemps" som vi sorterar
+        // https://learn.microsoft.com/en-us/dotnet/api/system.array.copy?view=net-9.0
+        CalcTemp[] mayTempsCopy = new CalcTemp[mayTemps.Length];
+        Array.Copy(mayTemps, mayTempsCopy, mayTemps.Length);
+
 
 
 
@@ -66,15 +72,29 @@ class Program
                     break;
                 case "3":
                     Console.Clear();
+                    CalcTemp.MaxTemp(mayTemps);
                     Console.Write("\nTryck för att fortsätta...");
                     Console.ReadKey();
                     Console.Clear();
                     break;
                 case "4":
+                    Console.Clear();
+                    CalcTemp.MinTemp(mayTemps);
+                    Console.Write("\nTryck för att fortsätta...");
+                    Console.ReadKey();
+                    Console.Clear();
                     break;
                 case "5":
                     break;
                 case "6":
+                    Console.Clear();
+                    // Använder metoden SortArray för att sortera och skicka tillbaka en sorterad array.
+                    sortedTemps = CalcTemp.SortArray(mayTempsCopy);
+                    // Skriver ut allt sorterat
+                    CalcTemp.PrintSort(sortedTemps);
+                    Console.Write("\nTryck för att fortsätta...");
+                    Console.ReadKey();
+                    Console.Clear();
                     break;
                 case "7":
                     break;

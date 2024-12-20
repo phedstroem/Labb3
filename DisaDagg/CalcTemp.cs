@@ -140,7 +140,36 @@ public class CalcTemp
         }
 
     }
-
+    // Metod för att få fram de vanligaste temperaturen i Maj och skriva ut.
+    public static void GetMostCommonTemp(CalcTemp[] array)
+    {
+        // initierar "mostCommonTemp" med första temperaturen i arrayen.
+        int mostCommonTemp = array[0].Temp;
+        // initierar "maxCount" till 1 = första tempen förekommer 1 gång direkt.
+        int maxCount = 1;
+        // Yttre loop som går igenom varje element/objekt i arrayen
+        for (int i = 0; i < array.Length; i++)
+        {
+            // nollställer räknaren för varje element
+            int count = 1;
+            // Inre loop som startar och går igenom resten av arrayen/objekten (i+1)
+            for (int j = (i + 1); j < array.Length; j++)
+            {
+                // Om temp array[i] == array[j] ökar "count" med 1.
+                if (array[i].Temp == array[j].Temp)
+                {
+                    count = count + 1;
+                }
+            }
+            // Om "count" är större än "maxCount" uppdateras både "maxCount" och "mostCommonTemp"
+            if (count > maxCount)
+            {
+                maxCount = count;
+                mostCommonTemp = array[i].Temp;
+            }
+        }
+        Console.WriteLine("Den vanligaste temeraturen i maj var " + mostCommonTemp + " °C");
+    }
 
 
 

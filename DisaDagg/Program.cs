@@ -47,7 +47,7 @@ class Program
             Console.WriteLine("8.  Väl en dag och visa temp dag före/efter");
             Console.WriteLine("9.  Visa vanligast förekommande temperatur");
             Console.WriteLine("10. Avsluta");
-            Console.WriteLine("Vad vill du göra?");
+            Console.Write("\nVad vill du göra? ");
             string userInput = Console.ReadLine();
 
             switch (userInput)
@@ -55,6 +55,7 @@ class Program
                 case "1":
                     Console.Clear();
                     // Metod för att skriva ut alla dagar och temperaturer
+                    Console.WriteLine();
                     CalcTemp.Print(mayTemps);
                     Console.Write("\nTryck för att fortsätta...");
                     Console.ReadKey();
@@ -86,7 +87,8 @@ class Program
                     break;
                 case "5":
                     Console.Clear();
-                    // Använder den sorterade listan 
+                    // Använder den sorterade listan
+                    // Median är det mittersta värdet/elementet efter sortering = antal element(31) /2 
                     sortedTemps = CalcTemp.SortArray(mayTempsCopy);
                     Console.WriteLine("Medianen: " + sortedTemps[16].Temp + " °C");
                     Console.Write("\nTryck för att fortsätta...");
@@ -98,6 +100,7 @@ class Program
                     // Använder metoden SortArray för att sortera och skicka tillbaka en sorterad array.
                     sortedTemps = CalcTemp.SortArray(mayTempsCopy);
                     // Skriver ut allt sorterat
+                    Console.WriteLine();
                     CalcTemp.PrintSort(sortedTemps);
                     Console.Write("\nTryck för att fortsätta...");
                     Console.ReadKey();
@@ -124,6 +127,12 @@ class Program
                 case "8":
                     break;
                 case "9":
+                    Console.Clear();
+                    CalcTemp.GetMostCommonTemp(mayTemps);
+                    Console.Write("\nTryck för att fortsätta...");
+                    Console.ReadKey();
+                    Console.Clear();
+                    break;
                     break;
                 case "10":
                     Console.WriteLine("Du valde att avsluta");

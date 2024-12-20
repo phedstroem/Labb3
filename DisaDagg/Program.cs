@@ -88,8 +88,7 @@ class Program
                     Console.Clear();
                     // Använder den sorterade listan 
                     sortedTemps = CalcTemp.SortArray(mayTempsCopy);
-                    // Skriver ut medianen
-                    CalcTemp.PrintMedian(sortedTemps);
+                    Console.WriteLine("Medianen: " + sortedTemps[16].Temp + " °C");
                     Console.Write("\nTryck för att fortsätta...");
                     Console.ReadKey();
                     Console.Clear();

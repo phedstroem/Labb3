@@ -105,6 +105,22 @@ class Program
                     Console.Clear();
                     break;
                 case "7":
+                    Console.Clear();
+                    Console.WriteLine("Här får du filtrera alla värden som överstiger en viss temperatur.");
+                    Console.Write("Vänligen skriv in en tröskeltemperatur: ");
+                    int tempValue;
+                    if (int.TryParse(Console.ReadLine(), out tempValue))
+                    {
+                        CalcTemp.FilterTemps(mayTemps, tempValue);
+
+                    }
+                    else
+                    {
+                        Console.Clear();
+                        Console.WriteLine("Du behöver slå in en siffra...");
+                        Thread.Sleep(2500);
+                        Console.Clear();
+                    }
                     break;
                 case "8":
                     break;

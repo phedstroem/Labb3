@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DisaDagg")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66066549161bf61ba2abe7a26114a5f358423e7e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b5d9c99c7fcda2f8a06604a3b7e6ba8d315967e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DisaDagg")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DisaDagg")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

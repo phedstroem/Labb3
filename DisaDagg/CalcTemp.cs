@@ -121,6 +121,42 @@ public class CalcTemp
         // Skickar tillbaka en sorterad array
         return array;
     }
+    // Metod för att filtrera och skriva ut temperaturer.
+    public static void FilterTemps(CalcTemp[] array, int thresholdValue)
+    {
+        List<CalcTemp> filterdList = new List<CalcTemp>();
+
+        for (int i = 0; i < array.Length; i++)
+        {
+            if (thresholdValue < array[i].Temp)
+            {
+                filterdList.Add(array[i]);
+            }
+
+        }
+        if (filterdList.Count > 0)
+        {
+            Console.Clear();
+            Console.WriteLine("Dessa dagar har en temperatur över " + thresholdValue + " °C");
+            Console.WriteLine();
+            for (int i = 0; i < filterdList.Count; i++)
+            {
+                Console.WriteLine(filterdList[i].Day + " Maj  - " + filterdList[i].Temp + " °C");
+            }
+            Console.WriteLine("\nTryck för att fortsätta");
+            Console.ReadKey();
+            Console.Clear();
+        }
+        else
+        {
+            Console.Clear();
+            Console.WriteLine("Det finns ingen temperatur som överstiger " + thresholdValue + " °C");
+            Thread.Sleep(2500);
+            Console.Clear();
+        }
+
+    }
+
 
 
 

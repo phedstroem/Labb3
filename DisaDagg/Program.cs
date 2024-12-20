@@ -125,6 +125,11 @@ class Program
                     }
                     break;
                 case "8":
+                    Console.Clear();
+                    CalcTemp.DayBeforeAfter(mayTemps, userDay: 0);
+                    Console.Write("\nTryck för att fortsätta...");
+                    Console.ReadKey();
+                    Console.Clear();
                     break;
                 case "9":
                     Console.Clear();
@@ -132,7 +137,6 @@ class Program
                     Console.Write("\nTryck för att fortsätta...");
                     Console.ReadKey();
                     Console.Clear();
-                    break;
                     break;
                 case "10":
                     Console.WriteLine("Du valde att avsluta");

@@ -171,6 +171,19 @@ public class CalcTemp
         Console.WriteLine("Den vanligaste temeraturen i maj var " + mostCommonTemp + " °C");
     }
 
+    public static void DayBeforeAfter(CalcTemp[] array, int userDay)
+    {
+        
+        Console.WriteLine("Skriv en Dag för att visa dagen före och efter:");
+        int userDayBeforeAfter = Convert.ToInt32(Console.ReadLine());
+        
+        int previousDay = Math.Clamp(userDayBeforeAfter - 1, 0, array.Length);
+        int nextDay = Math.Clamp(userDayBeforeAfter + 1, 0, array.Length);
+
+        Console.WriteLine("Föregående dag: " + previousDay);
+        Console.WriteLine("Nästa dag: " + nextDay);
+    }
+
 
 
 

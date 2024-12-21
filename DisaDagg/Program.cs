@@ -5,33 +5,30 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Skapar en slumpgenerator för temperaturer
+        // Skapar ett nytt objekt av typen Random för att slupa tal.
         Random random = new Random();
 
-        // Skapar en array av CalcTemp klassen med 31 indexplatser
+        // Skapar en array av CalcTemp klassen med 31 indexplatser för alla temperaturobjekt.
         CalcTemp[] mayTemps = new CalcTemp[31];
-        // Skapar en till array som spar alla värden sorterade
+        // Skapar en till array som spar alla objekt sorterade
         CalcTemp[] sortedTemps = new CalcTemp[31];
 
-        // Lägger in 31 "CalcTemp"object i arrayen med slumpade temperaturer // VI KAN NOG LÄGGA DEN I KLASSEN...
+        // Lägger in 31 "CalcTemp"object i arrayen med slumpade temperaturer.
         // Datumen kommer bli "index +1"
         // En for-loop som kommer snurra igenom alla 31 indexplatser
         for (int i = 0; i < mayTemps.Length; i++)
         {
-            // slumpar fram temperatur
+            // slumpar fram temperatur, mellan 1-34
             int temperatur = random.Next(1, 34);
-            // Lägger in värden för varje objekt. 
+            // Lägger in värden i varje nytt objekt vi skapar 
             mayTemps[i] = new CalcTemp(i + 1, temperatur);
         }
 
-        // Skapar en kopia på "mayTemps" som vi sorterar
-        // https://learn.microsoft.com/en-us/dotnet/api/system.array.copy?view=net-9.0
+        // Skapar en kopia på "mayTemps" som vi sorterar. Hjälp från https://learn.microsoft.com/en-us/dotnet/api/system.array.copy?view=net-9.0
         CalcTemp[] mayTempsCopy = new CalcTemp[mayTemps.Length];
         Array.Copy(mayTemps, mayTempsCopy, mayTemps.Length);
 
-
-
-
+        // While-loop som vi kör hela programmet i.
         bool isRunning = true;
         while (isRunning)
         {
@@ -39,17 +36,18 @@ class Program
             Console.WriteLine("Här ska du få lite hjälp med temperaturer för Maj");
             Console.WriteLine("\n1.  Skriv ut samtliga temperaturer");
             Console.WriteLine("2.  Medeltemperaturen");
-            Console.WriteLine("3.  Högsta temperaturen"); // och dag
-            Console.WriteLine("4.  Lägsta temperaturen "); // och dag
+            Console.WriteLine("3.  Högsta temperaturen"); 
+            Console.WriteLine("4.  Lägsta temperaturen "); 
             Console.WriteLine("5.  Mediantemperatur");
             Console.WriteLine("6.  Sortera temperaturerna");
             Console.WriteLine("7.  Filtrera som överstiger XX");
-            Console.WriteLine("8.  Väl en dag och visa temp dag före/efter");
+            Console.WriteLine("8.  Välj en dag och visa temp dag före/efter");
             Console.WriteLine("9.  Visa vanligast förekommande temperatur");
             Console.WriteLine("10. Avsluta");
             Console.Write("\nVad vill du göra? ");
             string userInput = Console.ReadLine();
 
+            // Switch som kör menyn med.
             switch (userInput)
             {
                 case "1":
@@ -110,6 +108,7 @@ class Program
                     Console.Clear();
                     Console.WriteLine("Här får du filtrera alla värden som överstiger en viss temperatur.");
                     Console.Write("Vänligen skriv in en tröskeltemperatur: ");
+                    // Felhantering
                     int tempValue;
                     if (int.TryParse(Console.ReadLine(), out tempValue))
                     {

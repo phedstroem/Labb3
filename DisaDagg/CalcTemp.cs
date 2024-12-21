@@ -14,29 +14,30 @@ public class CalcTemp
     }
 
     // metod för att räkna ut medelvärde.
-    // sätter den som "static" för att kunna anropa direkt i klassen utan att göra/instansiera ett objekt va klassen.
+    // sätter den som "static" för att kunna anropa direkt i klassen utan att göra/instansiera ett objekt av klassen.
     public static int AverageTemp(CalcTemp[] average) // Inparameter tar vi en CalctempArray som vi har i Main.
     {
         int sum = 0;
-        // Då elementen i arrayen är av typen CalcTemp och inte "int" så måste jag använda var i loopen.
+        // Då elementen i arrayen är av typen CalcTemp och inte "int" så måste vi använda var i loopen.
         foreach (var element in average) 
         {
             sum = sum + element.Temp;
         }
+        // Returnerar en int variabel
         return sum/average.Length;
     }
 
     // Vi gör en print metod här
     public static void Print(CalcTemp[] array) 
     {        
-        // Skriver ut allt. Lägg allt i meny 1, detta kan vi lägga i en klass, en metod "Print" kanske?
+        // Går igenom arrayen med en foreach-loop och skriver ut alla element/objekt.
         foreach (CalcTemp element in array)
         {
             Console.WriteLine(element.Day + " Maj: " + element.Temp + " °C");
         } 
     }
 
-    // Vi gör en till print metod här för sorterade arrayen
+    // Vi gör en till print metod här för sorterade arrayen med temperaturerna först
     public static void PrintSort(CalcTemp[] array)
     {
         // Skriver ut allt.
@@ -66,7 +67,7 @@ public class CalcTemp
         Console.WriteLine("Maxtemperaturen var " + maxTemp + " °C den " + day + " Maj");
 
     }
-    // En metod för att leta reda på MinTemperaturen
+    // En metod för att leta reda på MinTemperaturen, lika som ovan fast tvärs om.
     public static void MinTemp(CalcTemp[] array)
     {
         int minTemp = 35;
@@ -108,16 +109,19 @@ public class CalcTemp
     // Metod för att filtrera och skriva ut temperaturer.
     public static void FilterTemps(CalcTemp[] array, int thresholdValue)
     {
+        // Skapar ett listobjekt där vi spar alla objekt som filtrerats ut. 
         List<CalcTemp> filterdList = new List<CalcTemp>();
 
         for (int i = 0; i < array.Length; i++)
         {
+            // OM värdet i arrayen är större än tröskelvärdet - spar objektet i listan
             if (thresholdValue < array[i].Temp)
             {
                 filterdList.Add(array[i]);
             }
 
         }
+        // OM "filterdList" innehåller mer än 0 objekt - skriv ut alla objekt.
         if (filterdList.Count > 0)
         {
             Console.Clear();
@@ -131,6 +135,7 @@ public class CalcTemp
             Console.ReadKey();
             Console.Clear();
         }
+        // Om "filterdList" är tom så skrivs det ut nedanför. Felhantering.
         else
         {
             Console.Clear();
@@ -140,7 +145,8 @@ public class CalcTemp
         }
 
     }
-    // Metod för att få fram de vanligaste temperaturen i Maj och skriva ut.
+    // Metod för att få fram den vanligaste temperaturen i Maj och skriva ut.
+    // Hann inte lista ut hur man gjorde för att få ut fler vanliga temperaturer om det var fler som var lika många.
     public static void GetMostCommonTemp(CalcTemp[] array)
     {
         // initierar "mostCommonTemp" med första temperaturen i arrayen.
@@ -170,15 +176,13 @@ public class CalcTemp
         }
         Console.WriteLine("Den vanligaste temeraturen i maj var " + mostCommonTemp + " °C");
     }
-
+    // Skriver ut temperatur före/efter valt temp.
     public static void DayBeforeAfter(CalcTemp[] array, int userDay)
     {
         
         Console.WriteLine("Skriv en Dag för att visa dagen före och efter:");
         int userDayBeforeAfter = int.Parse(Console.ReadLine());
-        
         int userDayIndex = userDayBeforeAfter - 1;
-
         int previousDay = array[userDayIndex - 1].Day;
         int previousTemp = array[userDayIndex - 1].Temp;
         int nextDay = array[userDayIndex + 1].Day;

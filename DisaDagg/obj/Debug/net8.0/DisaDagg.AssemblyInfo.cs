@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DisaDagg")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47588fc8ca4e689befdce2a98c0a8bc679513759")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa27667795baa5eaac2177e41e24c5e8d8404cf3")]
 [assembly: System.Reflection.AssemblyProductAttribute("DisaDagg")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DisaDagg")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

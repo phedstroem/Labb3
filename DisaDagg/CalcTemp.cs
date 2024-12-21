@@ -175,13 +175,19 @@ public class CalcTemp
     {
         
         Console.WriteLine("Skriv en Dag för att visa dagen före och efter:");
-        int userDayBeforeAfter = Convert.ToInt32(Console.ReadLine());
+        int userDayBeforeAfter = int.Parse(Console.ReadLine());
         
-        int previousDay = Math.Clamp(userDayBeforeAfter - 1, 0, array.Length);
-        int nextDay = Math.Clamp(userDayBeforeAfter + 1, 0, array.Length);
+        int userDayIndex = userDayBeforeAfter - 1;
 
-        Console.WriteLine("Föregående dag: " + previousDay);
-        Console.WriteLine("Nästa dag: " + nextDay);
+        int previousDay = array[userDayIndex - 1].Day;
+        int previousTemp = array[userDayIndex - 1].Temp;
+        int nextDay = array[userDayIndex + 1].Day;
+        int nextTemp = array[userDayIndex + 1].Temp;
+        
+        Console.Clear();
+        Console.WriteLine(previousDay + " Maj: " + previousTemp + " °C");
+        Console.WriteLine(userDayBeforeAfter + " Maj: " + array[userDayIndex].Temp + " °C");
+        Console.WriteLine(nextDay + " Maj: " + nextTemp + " °C");
     }
 
 
